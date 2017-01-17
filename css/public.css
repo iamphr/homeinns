@@ -1,0 +1,46 @@
+@charset "utf-8";
+.top{ background:#fff; height: 70px;}
+.top_logo{ float: left; margin-right:48px; }
+.top_logo img{ width: 167px; height: 52px; margin: 10px 0 9px 0;}
+.nav{ float: left;}
+.nav li{ float: left; width:auto; font-size:14px; line-height:60px; color:#535353; border-top:5px solid #fff; margin:0 33px 0 0; cursor: pointer;}
+.nav li.navon,.nav li.naon{ border-color:#c0191f;color:#c0191f;}
+.english{ float:right;background:#c0191f;border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;font-size:14px;
+color:#fff; padding:4px 12px 5px 11px; display: block;}
+.top_login{ padding-top:40px; text-align:right; }
+.top_login a{font-size:14px;color:#535353;padding:0 10px;}
+.top_login span.login_icon{ color:#c0191f; font-size: 20px; margin-right:-11px; vertical-align: middle; padding-bottom:1px;}
+.top_login a.login_line{ background: url(../image/web/login_line.png) left 5px no-repeat; padding-left:12px;}
+.page{ margin: 0 auto; width: 380px; margin-top:46px; }
+.page a{border-radius:5px;-webkit-border-radius:5px; border:1px solid #a9a9a9; width:38px; height:38px; line-height: 38px; display: inline-block; text-align: center;font-size:16px;
+color:#90704d; cursor: pointer;}
+.page_left{}
+.page a.page_left i{ background-position:-89px -24px; width:10px; height:16px; margin-top:-1px;  vertical-align: middle;}
+.page a.page_right i{background-position:-117px -24px; width:10px; height:16px;margin-top:-1px;  vertical-align: middle;}
+.page a.pageon{ background: #90704d; color: #fff;}
+.page a.pageon.page_left i{background-position:-103px -24px; width:10px; height:16px;}
+.page a.pageon.page_right i{background-position:-131px -24px; width:10px; height:16px;}
+.page a.currenton{color:#d4d4d4;background:#f9f9f9;border:1px solid #d4d4d4; cursor:default; }
+.footer{ background:#f3f0ed; margin-top:79px; padding-bottom:36px;}
+.footerL{ float: left; width:759px; padding: 42px 0 0 21px;}
+.footerL dl{ float: left;color:#595757; padding-right:98px; }
+.footerL dl dt{font-size:18px; font-weight:bold; line-height: 18px; padding-bottom:14px; }
+.footerL dl dd{ font-size:14px; line-height: 14px; padding-bottom:14px; }
+.footerL dl dd a{color:#595757;}
+.footerL dl dd a:hover{color:#595757; text-decoration: underline;}
+.footerR{ float: left; padding: 37px 0 0 0;}
+.footerR li img{ margin-left:27px; }
+.footerR li.footerR_aboutus{ font-size: 20px; color:#535353; padding-top:27px;}
+.footerR li.footerR_aboutus a{ font-size: 49px; color:#979797; vertical-align: middle; padding-left:42px; }
+.footer_tip{ background: #fff; height: 63px;}
+.footer_tipL{ float: left; width: 325px; font-size: 12px; line-height: 16px; color:#979797; padding:14px 0 0 21px;}
+.footer_tipR{ float: right; width:450px;font-size: 12px; color:#979797; padding-top:17px; }
+.footer_tipR dl{ float:left; margin-left:27px;}
+.footer_tipR dl dt{ float: left;}
+.footer_tipR dl dt i{ margin-right:6px;}
+.footer_tipR dl dt i.gs_icon{background-position:0 -102px; width: 28px;height: 30px;}
+.footer_tipR dl dt i.wj_icon{background-position:-32px -102px; width: 30px;height: 30px;}
+.footer_tipR dl dt i.wl_icon{background-position:-66px -102px; width: 27px;height: 30px;}
+.footer_tipR dl dt i.icp_icon{background-position:-97px -102px; width: 25px;height: 30px;}
+.footer_tipR dl dd{ float: left; width:48px; line-height: 13px;}
+.footer_tipR dl dd.gs_name{ line-height: 30px;}
