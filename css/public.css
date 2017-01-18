@@ -7,10 +7,30 @@
 .nav li.navon,.nav li.naon{ border-color:#c0191f;color:#c0191f;}
 .english{ float:right;background:#c0191f;border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;font-size:14px;
 color:#fff; padding:4px 12px 5px 11px; display: block;}
-.top_login{ padding-top:40px; text-align:right; }
+.top_login{ padding-top:40px; text-align:right; display: none; }
 .top_login a{font-size:14px;color:#535353;padding:0 10px;}
-.top_login span.login_icon{ color:#c0191f; font-size: 20px; margin-right:-11px; vertical-align: middle; padding-bottom:1px;}
-.top_login a.login_line{ background: url(../image/web/login_line.png) left 5px no-repeat; padding-left:12px;}
+.login_icon{ color:#c0191f; font-size: 20px; margin-right:-11px; vertical-align: middle; padding-bottom:1px;}
+.login_line{ position: relative;}
+.login_line:before{background: url(http://images.homeinns.com/image/web/login_line.png) left center no-repeat; content: ""; position: absolute; left:-3px; top:5px; width:2px; height: 14px;}
+.top_login_after{padding-top:40px; text-align:right; position: relative;}
+.top_login_box{ display: inline;}
+.top_login_after a{font-size:14px;color:#535353;padding:0 10px;}
+.top_login_after a.login_quit{color:#90704D; cursor: pointer;}
+.top_login_after ul.top_login_list{ display: none; position:absolute; right: 0; top:70px; width: 139px; height: 156px; z-index: 999; padding:7px 0 7px 11px; background:#fff;  border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;box-shadow:0px 0px 5px rgba(0,0,0,.2); }
+.top_login_after ul.top_login_list li{ font-size: 12px; height: 26px; line-height:26px; color:#595757; text-align:left;}
+.top_login_after ul.top_login_list li a{ padding: 0;}
+
+.list_location{font-size:12px;color:#979797; padding-top:15px; }
+.list_location a{color:#979797; padding: 0 10px;}
+.list_location a.breadon{ color: #535353;}
+
+.error_main{ text-align: center; padding-top:39px;}
+.error_main li.error_img img{ width: 86px; height: 108px; margin-bottom:8px;}
+.error_main li.error_txt{ font-size: 26px; color: #535353;line-height: 35px;}
+.error_main li.error_button{margin-top:26px;}
+.error_main li.error_button a{display: inline-block; font-size: 20px; color:#FFF; line-height: 45px;width:157px; margin:0 auto; height:45px;background: #C0191F;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px; text-align: center; cursor: pointer;}
+.error_main li.error_button a:hover{background:#cd474c;}
+
 .page{ margin: 0 auto; width: 380px; margin-top:46px; }
 .page a{border-radius:5px;-webkit-border-radius:5px; border:1px solid #a9a9a9; width:38px; height:38px; line-height: 38px; display: inline-block; text-align: center;font-size:16px;
 color:#90704d; cursor: pointer;}
@@ -44,3 +64,4 @@ color:#90704d; cursor: pointer;}
 .footer_tipR dl dt i.icp_icon{background-position:-97px -102px; width: 25px;height: 30px;}
 .footer_tipR dl dd{ float: left; width:48px; line-height: 13px;}
 .footer_tipR dl dd.gs_name{ line-height: 30px;}
+.list_loading{position:absolute; left:343px; top:50px; z-index: 9999; width:200px; height:196px; z-index:9999; background:url(http://images.homeinns.com/image/web/loading.gif) center center no-repeat; display:none;}
